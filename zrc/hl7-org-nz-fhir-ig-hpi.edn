@@ -1,0 +1,12 @@
+{ns hl7-org-nz-fhir-ig-hpi,
+ import #{zen.fhir hl7-fhir-r4-core fhir-org-nz-ig-base},
+ ig {:zen/tags #{zen.fhir/ig},
+     :profiles profiles,
+     :structures structures},
+ profiles {:zen/tags #{zen.fhir/profiles},
+           :schemas {"Practitioner" {"http://hl7.org.nz/fhir/StructureDefinition/HPIPractitioner" #zen/quote hl7-org-nz-fhir-ig-hpi.HPIPractitioner/schema},
+                     "Location" {"http://hl7.org.nz/fhir/StructureDefinition/HPILocation" #zen/quote hl7-org-nz-fhir-ig-hpi.HpiLocation/schema},
+                     "PractitionerRole" {"http://hl7.org.nz/fhir/StructureDefinition/HPIPractitionerRole" #zen/quote hl7-org-nz-fhir-ig-hpi.HPIPractitionerRole/schema},
+                     "Organization" {"http://hl7.org.nz/fhir/StructureDefinition/HPIOrganization" #zen/quote hl7-org-nz-fhir-ig-hpi.HpiOrganization/schema}}},
+ structures {:zen/tags #{zen.fhir/structures},
+             :schemas {"http://hl7.org.nz/fhir/StructureDefinition/esam-id" #zen/quote hl7-org-nz-fhir-ig-hpi.esam-id/schema}}}
