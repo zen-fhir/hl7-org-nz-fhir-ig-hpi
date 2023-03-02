@@ -3,7 +3,7 @@
           zen.fhir
           fhir-org-nz-ig-base.NzOrganization
           fhir-org-nz-ig-base.NzAddress},
- schema {:zen.fhir/version "0.6.15",
+ schema {:zen.fhir/version "0.6.16-2",
          :confirms #{fhir-org-nz-ig-base.NzOrganization/schema
                      zen.fhir/Resource},
          :zen/tags #{zen.fhir/profile-schema zen/schema},
