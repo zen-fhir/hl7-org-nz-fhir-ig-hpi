@@ -7,7 +7,7 @@
          :zen/desc "The practitioner exposed by the HPI. This is the person who delivers healthcare or healthcare related services.",
          :zen.fhir/type "Practitioner",
          :zen.fhir/profileUri "http://hl7.org.nz/fhir/StructureDefinition/HPIPractitioner",
-         :zen.fhir/version "0.6.17-2",
+         :zen.fhir/version "0.6.17-4",
          :confirms #{zen.fhir/Resource
                      fhir-org-nz-ig-base.NzPractitioner/schema},
          :type zen/map,
