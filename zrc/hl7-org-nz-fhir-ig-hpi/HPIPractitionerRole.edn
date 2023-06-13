@@ -9,7 +9,7 @@
          :zen/desc "The practitioner role exposed by the HPI. Used to connect Practitioners with Organizations and Locations, indicating the role they have. A single Practitioner can have roles with multiple organizations.",
          :zen.fhir/type "PractitionerRole",
          :zen.fhir/profileUri "http://hl7.org.nz/fhir/StructureDefinition/HPIPractitionerRole",
-         :zen.fhir/version "0.6.28",
+         :zen.fhir/version "0.6.29",
          :confirms #{fhir-org-nz-ig-base.NzPractitionerRole/schema
                      zen.fhir/Resource},
          :type zen/map,
