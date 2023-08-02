@@ -5,7 +5,7 @@
           fhir-org-nz-ig-base.messaging-address
           fhir-org-nz-ig-base.NzAddress
           hl7-org-nz-fhir-ig-hpi.HpiLocation},
- schema {:zen.fhir/version "0.6.30-1",
+ schema {:zen.fhir/version "0.6.30-7",
          :confirms #{fhir-org-nz-ig-base.NzLocation/schema
                      zen.fhir/Resource},
          :zen/tags #{zen.fhir/profile-schema zen/schema},
